@@ -41,8 +41,8 @@ int main(void)
 	
     while(1)
     {
-		PORTA |= 0b00000100;
-		PORTA &= 0b11111011;
+		//PORTA |= 0b00000100;     //Timing Calibration pulse
+		//PORTA &= 0b11111011;
 		ADCSRA |= (1<<ADSC);
 		while (ADCSRA & (1 <<ADSC));
 		if (ADC > 0b0000000001011110)
