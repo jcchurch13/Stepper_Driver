@@ -66,7 +66,18 @@ Chopper Calculations:
 \begin_layout Standard
 \begin_inset Formula 
 \[
-I_{l}(t)=V_{S}e^{-t/\tau}\:\tau=L/R
+I_{l}(t)=\frac{V_{S}}{R}(1-e^{-t/\tau})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\tau=L/R
 \]
 
 \end_inset
@@ -81,6 +92,55 @@ Ex:
 \begin_layout Standard
 \begin_inset Formula 
 \[
+L=2=2.7mH
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R=1.4\Omega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\tau=1.93ms
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let's Say:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+I_{max}=2A
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+I_{l}
 \]
 
 \end_inset
